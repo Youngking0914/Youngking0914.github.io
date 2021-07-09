@@ -19,7 +19,7 @@
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 # the base hostname & protocol for your site e.g.
-url     :  https://Youngking0914.github.io
+url     : https://Youngking0914.github.io
 # does not include hostname
 baseurl : 
 title   : YoungK`s BLOG
@@ -223,7 +223,7 @@ defaults:
       aside:
         toc: true
       show_edit_on_github: true
-      show_subscribe: true
+      show_subscribe: false
       pageview: true
 
 
