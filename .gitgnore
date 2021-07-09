@@ -65,7 +65,7 @@ wp-content/plugins/hello.php
 
 
 ### MacOS ###
-*.DS_Store
+.DS_Store
 .AppleDouble
 .LSOverride
 Icon
@@ -82,6 +82,7 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+.icloud
 
 
 ### Windows ###
