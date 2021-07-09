@@ -1,1 +1,0 @@
-window.TEXT_SEARCH_DATA={'posts':[{'title':"Post with Header Image",'url':"/Youngking0914.github.io/2018/06/01/header-image.html"},{'title':"첫번째 테스트용 포스트 !",'url':"/Youngking0914.github.io/2018/07/01/welcome.html"}]};
