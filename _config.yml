@@ -21,7 +21,7 @@ highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "t
 # the base hostname & protocol for your site e.g.
 url     :  https://Youngking0914.github.io
 # does not include hostname
-baseurl : /Youngking0914.github.io
+baseurl : 
 title   : YoungK`s BLOG
 # this means to ignore newlines until "Language & timezone"
 description: >
@@ -31,7 +31,7 @@ description: >
 ## => Language and Timezone
 ##############################
 # the language of your site, default as "en"
-lang: 
+lang:
 timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
