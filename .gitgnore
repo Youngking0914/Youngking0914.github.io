@@ -1,8 +1,12 @@
 ### Jekyll ###
-_site
+/_site/
+_site/
+.sass-cache/
 .jekyll-metadata
-*-cache/
-
+.jekyll-cache/
+.jekyll
+Gemfile
+Gemfile.lock
 
 ### NPM ###
 /node_modules/
@@ -66,6 +70,8 @@ wp-content/plugins/hello.php
 
 ### MacOS ###
 .DS_Store
+.bundle
+.sass-cache
 .AppleDouble
 .LSOverride
 Icon
@@ -83,6 +89,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 .icloud
+node_modules
 
 
 ### Windows ###
