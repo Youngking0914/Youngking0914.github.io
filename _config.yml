@@ -25,13 +25,13 @@ baseurl :
 title   : YoungK`s BLOG
 # this means to ignore newlines until "Language & timezone"
 description: >
-  This site is developer`s blog
+  YoungK`s blog
 
 
 ## => Language and Timezone
 ##############################
 # the language of your site, default as "en"
-lang:
+lang: ko-KR
 timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
