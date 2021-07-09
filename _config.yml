@@ -21,7 +21,7 @@ highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "t
 # the base hostname & protocol for your site e.g.
 url     :  https://Youngking0914.github.io
 # does not include hostname
-baseurl : /Youngking0914.github.io
+baseurl : /Youngking0914.github.io/
 title   : YoungK`s BLOG
 # this means to ignore newlines until "Language & timezone"
 description: >
