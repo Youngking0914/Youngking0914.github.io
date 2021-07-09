@@ -1,5 +1,4 @@
 ### Jekyll ###
-/_site/
 _site/
 .sass-cache/
 .jekyll-metadata
@@ -103,3 +102,4 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 *.lnk
+
