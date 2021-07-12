@@ -1,5 +1,15 @@
 header:
   - titles:
+      en      : &EN       Home
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      ko      : &KO       홈
+      ko-KR   : *KO
+    url: https://youngking0914.github.io
+
+  - titles:
       # @start locale config
       en      : &EN       Archive
       en-GB   : *EN
