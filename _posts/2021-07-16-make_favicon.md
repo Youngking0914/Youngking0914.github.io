@@ -10,7 +10,7 @@ published: true
 <br>
 <br>
 
-# 0. 기본 아이콘이 마음에 안들어
+# 0. 블로그 내꺼만들기
 ![12](https://user-images.githubusercontent.com/60254939/125879671-ea94d69f-ed8e-4524-b653-f0c5e2e60bdc.png)
 포스트를 하기에 앞서 블로그를 들어올때마다 기본스러운 UI들이 마음에 안들었다.
 
@@ -24,9 +24,9 @@ published: true
 <br>
 <br>
 
-# 1. 원하는 이미지 다운로드 받기
+# 1. 이미지 다운로드
 ![1](https://user-images.githubusercontent.com/60254939/125879441-7879519d-cbae-4bdc-9963-2de018f9fb7a.png)
-우선 구글에서 원하는 이미지의 **.png** 확장자 파일을 다운받아야 합니다.
+우선 구글에서 원하는 이미지의 `.png` 확장자 파일을 다운받아야 합니다.
 
 저는 뭔가 개발자 스럽고 세련된? 디자인을 하고싶어서 찾고 찾다가 Siri의 영롱한 디자인에 꽂혔습니다..
 
@@ -34,7 +34,7 @@ published: true
 <br>
 <br>
 
-# 2. 파비콘 생성하기 
+# 2. PNG to ICO
 ```html
 <!-- start favicons snippet, use https://realfavicongenerator.net/ -->
 {%- include snippets/prepend-baseurl.html path='/assets/apple-touch-icon.png' -%}
@@ -63,13 +63,13 @@ published: true
 <meta name="theme-color" content="#ffffff">
 <!-- end favicons snippet -->
 ```
-**includes/head/favicon.html** 에 가보면 위와 같은 코드를 볼 수 있는데
+`includes/head/favicon.html` 에 가보면 위와 같은 코드를 볼 수 있는데
 
 ![2](https://user-images.githubusercontent.com/60254939/125882064-257a49b6-a6e3-494f-91ec-1de4de7fd975.png)
 
-**/assets** 폴더에 가보면 코드에 작성된 내용과 같은 파일들이 있는 걸 볼 수 있습니다.
+`/assets` 폴더에 가보면 코드에 작성된 내용과 같은 파일들이 있는 걸 볼 수 있습니다.
 
-이제 다운받은 **png** 이미지를 각 사이즈 및 **ico** 로 바꿔야 하는데, 
+이제 다운받은 `.png` 이미지를 각 사이즈 및 `.ico` 로 바꿔야 하는데, 
 
 파비콘 변환 사이트들에서 바꿀 수 있습니다.
 
@@ -91,13 +91,13 @@ published: true
 <br>
 <br>
 
-# 3. /assets 에 파일 덮어씌우기
+# 3. /assets 덮어쓰기
 
-> 전 작업환경이 달라서 깃에서 바로 작업했습니다.
+> **전 작업환경이 달라서 깃에서 바로 작업했습니다.**
 
 ![image](https://user-images.githubusercontent.com/60254939/125883987-d0804d1f-4ba3-4459-a109-857be87f9fa9.png)
 
-**/assets** 폴더안에 전부 붙여넣습니다.
+`/assets` 폴더안에 전부 붙여넣습니다.
 
 <br>
 <br>
@@ -107,9 +107,9 @@ published: true
 
 ![image](https://user-images.githubusercontent.com/60254939/125892444-663c8a85-aeba-45b6-a343-7013ace37859.png)
 
-다음과 같이 html 코드를 복사한 뒤 **/includes/head/custom.html** 에 붙여넣습니다.
+다음과 같이 html 코드를 복사한 뒤 `/includes/head/custom.html` 에 붙여넣습니다.
 
-붙여넣을 때 **href** 앞부분에 **/assets/favicon.ico/** 를 붙여줍니다.
+붙여넣을 때 `href` 앞부분에 `/assets/favicon.ico/` 를 붙여줍니다.
 
 ```html
 <!-- start custom head snippets -->
@@ -147,7 +147,8 @@ published: true
 
 ![image](https://user-images.githubusercontent.com/60254939/125900004-c00b2719-f13b-482e-819e-bef1846a295a.png)
 
-**/includes/svg/logo.svg** 
+`/includes/svg/logo.svg` 
+타이틀 옆 마크는 `.svg` 확장자를 가지고 있습니다.
 
 넣고 싶은 이미지를 구글에 **png to svg**로 검색해서 변환해줍니다. 
 
@@ -158,7 +159,7 @@ published: true
 ![image](https://user-images.githubusercontent.com/60254939/125900154-923ae895-10bd-40bc-900a-04491f5235c0.png)
 
 
-이름을 **logo.svg** 로 바꿔주고 **/includes/svg/logo.svg** 에 덮어씌워줍니다.
+이름을 `logo.svg` 로 바꿔주고 `/includes/svg/logo.svg` 에 덮어씌워줍니다.
 
 <br>
 <br>
