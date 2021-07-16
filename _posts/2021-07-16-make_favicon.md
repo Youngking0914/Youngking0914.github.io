@@ -4,7 +4,8 @@ subtitle: Change favicon + .svg
 tags: Jekyll
 published: true
 ---
-> 이 글은 TeXt theme 기준이므로 개인마다 조금씩 다를 수 있습니다.  
+> **이 글은 TeXt theme 기준이므로 개인마다 조금씩 다를 수 있습니다.**
+
 <br>
 <br>
 <br>
@@ -25,7 +26,7 @@ published: true
 
 # 1. 원하는 이미지 다운로드 받기
 ![1](https://user-images.githubusercontent.com/60254939/125879441-7879519d-cbae-4bdc-9963-2de018f9fb7a.png)
-우선 구글에서 원하는 이미지의 .png 확장자 파일을 다운받아야 합니다.
+우선 구글에서 원하는 이미지의 **.png** 확장자 파일을 다운받아야 합니다.
 
 저는 뭔가 개발자 스럽고 세련된? 디자인을 하고싶어서 찾고 찾다가 Siri의 영롱한 디자인에 꽂혔습니다..
 
@@ -62,17 +63,17 @@ published: true
 <meta name="theme-color" content="#ffffff">
 <!-- end favicons snippet -->
 ```
-includes/head/favicon.html 에 가보면 위와 같은 코드를 볼 수 있는데
+**includes/head/favicon.html** 에 가보면 위와 같은 코드를 볼 수 있는데
 
 ![2](https://user-images.githubusercontent.com/60254939/125882064-257a49b6-a6e3-494f-91ec-1de4de7fd975.png)
 
-assets 폴더에 가보면 코드에 작성된 내용과 같은 파일들이 있는 걸 볼 수 있습니다.
+**/assets** 폴더에 가보면 코드에 작성된 내용과 같은 파일들이 있는 걸 볼 수 있습니다.
 
-이제 다운받은 png 이미지를 각 사이즈 및 ico 로 바꿔야 하는데, 
+이제 다운받은 **png** 이미지를 각 사이즈 및 **ico** 로 바꿔야 하는데, 
 
 파비콘 변환 사이트들에서 바꿀 수 있습니다.
 
-> 구글에 파비콘만 검색해도 다양한 변환 사이트가 나오는데, 전 주석에 써있는대로 여기(https://realfavicongenerator.net/) 를 이용했습니다
+> 구글에 파비콘만 검색해도 다양한 변환 사이트가 나오는데, 전 주석에 써있는대로 [여기](https://realfavicongenerator.net/) 를 이용했습니다
 > 
 > ![image](https://user-images.githubusercontent.com/60254939/125883095-3d1281c2-ff81-465b-a339-0b11269b8aaa.png)
 
@@ -80,7 +81,7 @@ assets 폴더에 가보면 코드에 작성된 내용과 같은 파일들이 있
 
 ![image](https://user-images.githubusercontent.com/60254939/125883306-782dddd7-1d4e-49b2-a82c-d098a0093c89.png)
 
-Select Your Fabicon image 버튼을 눌러 변환한 다음 Favicon Package 를 눌러보면
+**Select Your Fabicon image** 버튼을 눌러 변환한 다음 **Favicon Package** 를 눌러보면
 
 ![image](https://user-images.githubusercontent.com/60254939/125883610-5ff96410-d815-4f1d-a9b2-f8c6589afa93.png)
 
@@ -96,7 +97,7 @@ Select Your Fabicon image 버튼을 눌러 변환한 다음 Favicon Package 를 
 
 ![image](https://user-images.githubusercontent.com/60254939/125883987-d0804d1f-4ba3-4459-a109-857be87f9fa9.png)
 
-/assets 폴더안에 전부 붙여넣습니다.
+**/assets** 폴더안에 전부 붙여넣습니다.
 
 <br>
 <br>
@@ -106,9 +107,9 @@ Select Your Fabicon image 버튼을 눌러 변환한 다음 Favicon Package 를 
 
 ![image](https://user-images.githubusercontent.com/60254939/125892444-663c8a85-aeba-45b6-a343-7013ace37859.png)
 
-다음과 같이 html 코드를 복사한 뒤 /includes/head/custom.html 에 붙여넣습니다.
+다음과 같이 html 코드를 복사한 뒤 **/includes/head/custom.html** 에 붙여넣습니다.
 
-붙여넣을 때 href 앞부분에 /assets/favicon.ico/ 를 붙여줍니다.
+붙여넣을 때 **href** 앞부분에 **/assets/favicon.ico/** 를 붙여줍니다.
 
 ```html
 <!-- start custom head snippets -->
@@ -136,7 +137,7 @@ Select Your Fabicon image 버튼을 눌러 변환한 다음 Favicon Package 를 
 <br>
 <br>
 
-추가+
+**추가+**
 
 <br>
 <br>
@@ -146,18 +147,18 @@ Select Your Fabicon image 버튼을 눌러 변환한 다음 Favicon Package 를 
 
 ![image](https://user-images.githubusercontent.com/60254939/125900004-c00b2719-f13b-482e-819e-bef1846a295a.png)
 
-/includes/svg/logo.svg 
+**/includes/svg/logo.svg** 
 
-넣고 싶은 이미지를 구글에 png to svg로 검색해서 변환해줍니다. 
+넣고 싶은 이미지를 구글에 **png to svg**로 검색해서 변환해줍니다. 
 
-> 전 여기(https://anyconv.com/ko/png-to-svg-byeonhwangi/) 에서 변환했습니다.
+> 전 [여기](https://anyconv.com/ko/png-to-svg-byeonhwangi/) 에서 변환했습니다.
 
 ![image](https://user-images.githubusercontent.com/60254939/125900093-b9575ab4-f73f-44a7-965b-90bd2d26d3f8.png)
 
 ![image](https://user-images.githubusercontent.com/60254939/125900154-923ae895-10bd-40bc-900a-04491f5235c0.png)
 
 
-이름을 logo.svg 로 바꿔주고 /includes/svg/logo.svg 에 덮어씌워줍니다.
+이름을 **logo.svg** 로 바꿔주고 **/includes/svg/logo.svg** 에 덮어씌워줍니다.
 
 <br>
 <br>
