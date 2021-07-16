@@ -1,6 +1,6 @@
 ---
-title: Jekyll Navigation 수정하기
-tags: jekyll
+title: "[Jekyll] Navigation 수정하기"
+tags: Jekyll
 ---
 > *TeXt 테마를 기준으로 작성하였습니다.*
 
