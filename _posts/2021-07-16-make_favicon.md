@@ -2,6 +2,7 @@
 title: "[Jekyll] 블로그 아이콘 변경하기"
 subtitle: Change favicon + .svg
 tags: Jekyll
+author: YoungKyu Song
 published: true
 ---
 > **이 글은 TeXt theme 기준이므로 개인마다 조금씩 다를 수 있습니다.**
