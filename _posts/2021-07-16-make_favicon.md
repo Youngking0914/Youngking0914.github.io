@@ -11,7 +11,7 @@ published: true
 <br>
 
 # 0. 블로그 내꺼만들기
-![12](https://user-images.githubusercontent.com/60254939/125879671-ea94d69f-ed8e-4524-b653-f0c5e2e60bdc.png)
+![12](https://user-images.githubusercontent.com/60254939/125879671-ea94d69f-ed8e-4524-b653-f0c5e2e60bdc.png){:.border.rounded.shadow}
 포스트를 하기에 앞서 블로그를 들어올때마다 기본스러운 UI들이 마음에 안들었다.
 
 네비게이션부터 시작해 색상 등 마음에 안드는 것들 투성이었지만 우선 가장 눈에 띈 건 저 은행잎 파비콘이었다.
@@ -25,7 +25,7 @@ published: true
 <br>
 
 # 1. 이미지 다운로드
-![1](https://user-images.githubusercontent.com/60254939/125879441-7879519d-cbae-4bdc-9963-2de018f9fb7a.png)
+![1](https://user-images.githubusercontent.com/60254939/125879441-7879519d-cbae-4bdc-9963-2de018f9fb7a.png){:.border.rounded.shadow}
 우선 구글에서 원하는 이미지의 `.png` 확장자 파일을 다운받아야 합니다.
 
 저는 뭔가 개발자 스럽고 세련된? 디자인을 하고싶어서 찾고 찾다가 Siri의 영롱한 디자인에 꽂혔습니다..
