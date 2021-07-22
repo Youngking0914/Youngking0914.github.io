@@ -65,7 +65,7 @@ published: true
 ```
 `includes/head/favicon.html` 에 가보면 위와 같은 코드를 볼 수 있는데
 
-![2](https://user-images.githubusercontent.com/60254939/125882064-257a49b6-a6e3-494f-91ec-1de4de7fd975.png)
+![2](https://user-images.githubusercontent.com/60254939/125882064-257a49b6-a6e3-494f-91ec-1de4de7fd975.png){:.border.rounded.shadow}
 
 `/assets` 폴더에 가보면 코드에 작성된 내용과 같은 파일들이 있는 걸 볼 수 있습니다.
 
@@ -75,15 +75,15 @@ published: true
 
 > 구글에 파비콘만 검색해도 다양한 변환 사이트가 나오는데, 전 주석에 써있는대로 [여기](https://realfavicongenerator.net/) 를 이용했습니다
 > 
-> ![image](https://user-images.githubusercontent.com/60254939/125883095-3d1281c2-ff81-465b-a339-0b11269b8aaa.png)
+> ![image](https://user-images.githubusercontent.com/60254939/125883095-3d1281c2-ff81-465b-a339-0b11269b8aaa.png){:.border.rounded.shadow}
 
-![image](https://user-images.githubusercontent.com/60254939/125898000-62f4bec5-2841-460d-a7d4-cc36917a3629.png)
+![image](https://user-images.githubusercontent.com/60254939/125898000-62f4bec5-2841-460d-a7d4-cc36917a3629.png){:.border.rounded.shadow}
 
-![image](https://user-images.githubusercontent.com/60254939/125883306-782dddd7-1d4e-49b2-a82c-d098a0093c89.png)
+![image](https://user-images.githubusercontent.com/60254939/125883306-782dddd7-1d4e-49b2-a82c-d098a0093c89.png){:.border.rounded.shadow}
 
 **Select Your Fabicon image** 버튼을 눌러 변환한 다음 **Favicon Package** 를 눌러보면
 
-![image](https://user-images.githubusercontent.com/60254939/125883610-5ff96410-d815-4f1d-a9b2-f8c6589afa93.png)
+![image](https://user-images.githubusercontent.com/60254939/125883610-5ff96410-d815-4f1d-a9b2-f8c6589afa93.png){:.border.rounded.shadow}
 
 이렇게 필요한 파일이 전부 들어있네요 !
 
@@ -95,7 +95,7 @@ published: true
 
 > **전 작업환경이 달라서 깃에서 바로 작업했습니다.**
 
-![image](https://user-images.githubusercontent.com/60254939/125883987-d0804d1f-4ba3-4459-a109-857be87f9fa9.png)
+![image](https://user-images.githubusercontent.com/60254939/125883987-d0804d1f-4ba3-4459-a109-857be87f9fa9.png){:.border.rounded.shadow}
 
 `/assets` 폴더안에 전부 붙여넣습니다.
 
@@ -105,7 +105,7 @@ published: true
 
 # 4. custom.html 수정
 
-![image](https://user-images.githubusercontent.com/60254939/125892444-663c8a85-aeba-45b6-a343-7013ace37859.png)
+![image](https://user-images.githubusercontent.com/60254939/125892444-663c8a85-aeba-45b6-a343-7013ace37859.png){:.border.rounded.shadow}
 
 다음과 같이 html 코드를 복사한 뒤 `/includes/head/custom.html` 에 붙여넣습니다.
 
@@ -129,7 +129,7 @@ published: true
 
 # 😎 파비콘 완성 !
 
-![image](https://user-images.githubusercontent.com/60254939/125898517-0342e400-35ab-4760-90b7-97355e479184.png)
+![image](https://user-images.githubusercontent.com/60254939/125898517-0342e400-35ab-4760-90b7-97355e479184.png){:.border.rounded.shadow}
 
 이렇게 파비콘이 잘 들어간 걸 확인할 수 있습니다 !
 
@@ -145,7 +145,7 @@ published: true
 
 # 타이틀 옆 마크 변경(.svg)
 
-![image](https://user-images.githubusercontent.com/60254939/125900004-c00b2719-f13b-482e-819e-bef1846a295a.png)
+![image](https://user-images.githubusercontent.com/60254939/125900004-c00b2719-f13b-482e-819e-bef1846a295a.png){:.border.rounded.shadow}
 
 `/includes/svg/logo.svg` 
 타이틀 옆 마크는 `.svg` 확장자를 가지고 있습니다.
@@ -154,9 +154,9 @@ published: true
 
 > 전 [여기](https://anyconv.com/ko/png-to-svg-byeonhwangi/) 에서 변환했습니다.
 
-![image](https://user-images.githubusercontent.com/60254939/125900093-b9575ab4-f73f-44a7-965b-90bd2d26d3f8.png)
+![image](https://user-images.githubusercontent.com/60254939/125900093-b9575ab4-f73f-44a7-965b-90bd2d26d3f8.png){:.border.rounded.shadow}
 
-![image](https://user-images.githubusercontent.com/60254939/125900154-923ae895-10bd-40bc-900a-04491f5235c0.png)
+![image](https://user-images.githubusercontent.com/60254939/125900154-923ae895-10bd-40bc-900a-04491f5235c0.png){:.border.rounded.shadow}
 
 
 이름을 `logo.svg` 로 바꿔주고 `/includes/svg/logo.svg` 에 덮어씌워줍니다.
@@ -167,7 +167,7 @@ published: true
 
 # 진짜 끝 !
 
-![image](https://user-images.githubusercontent.com/60254939/125900338-8fd49fdc-15fc-49f6-9a92-13c5c86e9daa.png)
+![image](https://user-images.githubusercontent.com/60254939/125900338-8fd49fdc-15fc-49f6-9a92-13c5c86e9daa.png){:.border.rounded.shadow}
 
 
 <!--more-->
