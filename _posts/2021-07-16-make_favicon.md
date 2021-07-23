@@ -28,14 +28,14 @@ published: true
 ![1](https://user-images.githubusercontent.com/60254939/125879441-7879519d-cbae-4bdc-9963-2de018f9fb7a.png){:.border.rounded.shadow}
 우선 구글에서 원하는 이미지의 `.png` 확장자 파일을 다운받아야 합니다.
 
-저는 뭔가 개발자 스럽고 세련된? 디자인을 하고싶어서 찾고 찾다가 Siri의 영롱한 디자인에 꽂혔습니다..
+*저는 Siri의 영롱한 디자인에 꽂혔습니다..*
 
 <br>
 <br>
 <br>
 
 # 2. PNG to ICO
-```html
+```
 <!-- start favicons snippet, use https://realfavicongenerator.net/ -->
 {%- include snippets/prepend-baseurl.html path='/assets/apple-touch-icon.png' -%}
 <link rel="apple-touch-icon" sizes="180x180" href="{{ __return }}">
@@ -67,9 +67,11 @@ published: true
 
 ![2](https://user-images.githubusercontent.com/60254939/125882064-257a49b6-a6e3-494f-91ec-1de4de7fd975.png){:.border.rounded.shadow}
 
-`/assets` 폴더에 가보면 코드에 작성된 내용과 같은 파일들이 있는 걸 볼 수 있습니다.
+`/assets` 폴더에 가보면 코드에서 언급한 파일들이 있는 걸 볼 수 있습니다.
 
-이제 다운받은 `.png` 이미지를 각 사이즈 및 `.ico` 로 바꿔야 하는데, 
+`favicon.html` 에서 `/assets` 폴더 안에 있는 파일들을 불러오는 것 같네요
+
+이제 다운받은 `.png` 이미지를 각 브라우저 및 OS별 사이즈 및 `.ico` 로 바꿔야 하는데, 
 
 파비콘 변환 사이트들에서 바꿀 수 있습니다.
 
@@ -109,15 +111,15 @@ published: true
 
 다음과 같이 html 코드를 복사한 뒤 `/includes/head/custom.html` 에 붙여넣습니다.
 
-붙여넣을 때 `href` 앞부분에 `/assets/favicon.ico/` 를 붙여줍니다.
+붙여넣을 때 `href` 앞부분에 `/assets/` 를 붙여줍니다.
 
 ```html
 <!-- start custom head snippets -->
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon.ico/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon.ico/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon.ico/favicon-16x16.png">
-<link rel="manifest" href="/assets/favicon.ico/site.webmanifest">
-<link rel="mask-icon" href="/assets/favicon.ico/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+<link rel="manifest" href="/assets/site.webmanifest">
+<link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 <!-- end custom head snippets -->
