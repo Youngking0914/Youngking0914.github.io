@@ -35,7 +35,7 @@ published: true
 <br>
 
 # 2. PNG to ICO
-```
+```html
 <!-- start favicons snippet, use https://realfavicongenerator.net/ -->
 {%- include snippets/prepend-baseurl.html path='/assets/apple-touch-icon.png' -%}
 <link rel="apple-touch-icon" sizes="180x180" href="{{ __return }}">
