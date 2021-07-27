@@ -1,8 +1,8 @@
 ---
 
-title: "[Swift] Closure를 활용해 간단한 계산하기" 
+title: "[IOS][Swift] Closure를 활용해 간단한 계산하기" 
 subtitle: Closure add, sub, mul, div
-tags: Swift, Ios, Closure
+tags: IOS, Swift, Closure
 published: true
 
 ---
