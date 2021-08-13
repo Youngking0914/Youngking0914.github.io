@@ -2,7 +2,7 @@
 
 title: "[iOS][Swift] Closure를 활용해 간단한 계산하기" 
 subtitle: Closure add, sub, mul, div
-tags: IOS, Swift, Closure
+tags: iOS, Swift, Closure
 published: true
 
 ---
