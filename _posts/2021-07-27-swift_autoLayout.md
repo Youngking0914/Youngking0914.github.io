@@ -1,6 +1,6 @@
 ---
 
-title: "[IOS][Swift] 오토레이아웃 개념잡기"
+title: "[iOS][Swift] 오토레이아웃 개념잡기"
 subtitle: AutoLayout Constraints
 tags: Swift, IOS, AutoLayout, Constraint
 published: true
