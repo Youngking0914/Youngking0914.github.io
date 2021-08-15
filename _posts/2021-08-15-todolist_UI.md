@@ -18,7 +18,7 @@ published: true
 
 ![image-20210813172802978](https://user-images.githubusercontent.com/60254939/129470377-49927016-3611-4fd4-8b40-6390951737c5.png)
 
-
+![image-20210815160328350](https://user-images.githubusercontent.com/60254939/129470378-94017b52-3a89-40c7-a8de-8c4d78788e3d.png)
 
 # 3. 구현 할 기본 기능
 
@@ -28,7 +28,7 @@ published: true
 
 # 4. AutoLayout
 
-![image-20210815160328350](https://user-images.githubusercontent.com/60254939/129470378-94017b52-3a89-40c7-a8de-8c4d78788e3d.png)
+![image-20210815160328350](https://user-images.githubusercontent.com/60254939/129470520-2c403b8d-6bb1-4954-8ecb-9da8f61b0dc6.png)
 
 스택뷰는 `Safe Area` 에 딱 맞춰줍니다.
 
