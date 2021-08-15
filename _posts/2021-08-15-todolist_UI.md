@@ -1,6 +1,6 @@
 ---
 
-title: "[][Swift] [iOS][Swift] 투두리스트 앱 만들기 - UI 구성 AutoLayout Constraint 걸기"
+title: "[Swift] [iOS][Swift] 투두리스트 앱 만들기 - UI 구성 AutoLayout Constraint 걸기"
 
 subtitle: iOS ToDoList App UI - Constraint AutoLayout
 
