@@ -2,7 +2,7 @@
 
 title: "[iOS][Swift] 오토레이아웃 개념잡기"
 subtitle: AutoLayout Constraints
-tags: Swift, OS, AutoLayout, Constraint
+tags: Swift, iOS, AutoLayout, Constraint
 published: true
 
 ---
